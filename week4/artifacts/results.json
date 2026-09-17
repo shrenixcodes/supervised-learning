@@ -1,0 +1,130 @@
+{
+  "rows": 48842,
+  "train_rows": 39073,
+  "test_rows": 9769,
+  "class_counts": {
+    "0": 37155,
+    "1": 11687
+  },
+  "best_model": "Tuned random forest",
+  "best_params": {
+    "model__max_depth": 18,
+    "model__n_estimators": 220
+  },
+  "cv_results": [
+    {
+      "model": "Majority baseline",
+      "accuracy": 0.7607299168233403,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "cv_roc_auc": NaN
+    },
+    {
+      "model": "Logistic regression",
+      "accuracy": 0.8148082161699042,
+      "precision": 0.5768342676797555,
+      "recall": 0.848645934369662,
+      "f1": 0.686808437607045,
+      "roc_auc": 0.9093646339941428,
+      "cv_roc_auc": NaN
+    },
+    {
+      "model": "Random forest",
+      "accuracy": 0.8527371234038483,
+      "precision": 0.7291886931662489,
+      "recall": 0.6118285107710091,
+      "f1": 0.6653096318994633,
+      "roc_auc": 0.9034558092718757,
+      "cv_roc_auc": NaN
+    },
+    {
+      "model": "Tuned logistic regression",
+      "accuracy": NaN,
+      "precision": NaN,
+      "recall": NaN,
+      "f1": NaN,
+      "roc_auc": NaN,
+      "cv_roc_auc": 0.9096769943557712
+    },
+    {
+      "model": "Tuned random forest",
+      "accuracy": NaN,
+      "precision": NaN,
+      "recall": NaN,
+      "f1": NaN,
+      "roc_auc": NaN,
+      "cv_roc_auc": 0.9156253684642299
+    }
+  ],
+  "test_results": [
+    {
+      "model": "Majority baseline",
+      "accuracy": 0.7606715119254785,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5
+    },
+    {
+      "model": "Logistic regression",
+      "accuracy": 0.8132869280376702,
+      "precision": 0.5754107981220657,
+      "recall": 0.8387510692899914,
+      "f1": 0.6825617821092934,
+      "roc_auc": 0.9086817425763273
+    },
+    {
+      "model": "Random forest",
+      "accuracy": 0.8563824342307299,
+      "precision": 0.7381558838512481,
+      "recall": 0.6197604790419161,
+      "f1": 0.6737967914438503,
+      "roc_auc": 0.9063494212336616
+    },
+    {
+      "model": "Tuned logistic regression",
+      "accuracy": 0.8123656464325929,
+      "precision": 0.5740686418304488,
+      "recall": 0.8370402053036784,
+      "f1": 0.6810509831216287,
+      "roc_auc": 0.9089919244503092
+    },
+    {
+      "model": "Tuned random forest",
+      "accuracy": 0.8290510799467704,
+      "precision": 0.6028325123152709,
+      "recall": 0.8374679213002566,
+      "f1": 0.7010383100608665,
+      "roc_auc": 0.9202600623771202
+    }
+  ],
+  "confusion_matrix": [
+    [
+      6141,
+      1290
+    ],
+    [
+      380,
+      1958
+    ]
+  ],
+  "best_test_metrics": {
+    "model": "Tuned random forest",
+    "accuracy": 0.8290510799467704,
+    "precision": 0.6028325123152709,
+    "recall": 0.8374679213002566,
+    "f1": 0.7010383100608665,
+    "roc_auc": 0.9202600623771202
+  },
+  "artifacts": [
+    "Week_4_Supervised_Learning_Model_Implementation_Report.docx",
+    "class_distribution.png",
+    "confusion_matrix.png",
+    "permutation_importance.png",
+    "precision_recall_curves.png",
+    "roc_curves.png",
+    "results.json"
+  ]
+}
