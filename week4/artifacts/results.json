@@ -6,6 +6,21 @@
     "0": 37155,
     "1": 11687
   },
+  "clean_stats": {
+    "raw_rows": 48842,
+    "rows_after_cleaning": 48842,
+    "missing_by_column": {
+      "workclass": 2799,
+      "occupation": 2809,
+      "native-country": 857
+    },
+    "duplicate_rows": 29
+  },
+  "feature_engineering_ablation": {
+    "without_engineered_mean_roc_auc": 0.9023842011584922,
+    "with_engineered_mean_roc_auc": 0.9034558092718757,
+    "delta": 0.001071608113383582
+  },
   "best_model": "Tuned random forest",
   "best_params": {
     "model__max_depth": 18,
@@ -122,6 +137,9 @@
     "Week_4_Supervised_Learning_Model_Implementation_Report.docx",
     "class_distribution.png",
     "confusion_matrix.png",
+    "error_analysis.png",
+    "feature_distributions.png",
+    "model_comparison.png",
     "permutation_importance.png",
     "precision_recall_curves.png",
     "roc_curves.png",
